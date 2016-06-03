@@ -2,10 +2,17 @@
 //
 
 #include "stdafx.h"
+#include "Matrix.h"
 
 
 int main()
 {
+	Matrix matr;
+	matr.ConsoleOut();
+
+
+
+	system("pause");
     return 0;
 }
 
