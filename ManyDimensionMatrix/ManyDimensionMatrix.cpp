@@ -3,12 +3,27 @@
 
 #include "stdafx.h"
 #include "Matrix.h"
+#include "Matrix2.h"
 
 
 int main()
 {
-	Matrix matr;
-	matr.ConsoleOut();
+	Matrix* pointerMatr;
+
+
+
+	pointerMatr = new Matrix;
+	pointerMatr->ConsoleOut();
+	delete pointerMatr;
+	std::cout << std::endl;
+
+
+	pointerMatr = new Matrix2;
+	pointerMatr->ConsoleOut();
+	delete pointerMatr;
+	std::cout << std::endl;
+
+
 
 
 
